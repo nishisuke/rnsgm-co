@@ -1,4 +1,0 @@
-gem 'railg', group: :development
-after_bundle do
-  run 'bundle exec rails g | grep railg'
-end
