@@ -1,4 +1,4 @@
 gem 'railg', group: :development
 after_bundle do
-  run 'bundle exec rails g | grep railg'
+  run 'bundle exec rails g railg:install --help'
 end
