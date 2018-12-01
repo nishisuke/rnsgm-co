@@ -1,0 +1,1 @@
+-d postgresql --skip-keeps -M --skip-active-storage -C -S --skip-spring --skip-listen --skip-coffee -J --skip-turbolinks -T --skip-system-test --skip-bootsnap -B --webpack -f -m https://rnsgm.co/m
