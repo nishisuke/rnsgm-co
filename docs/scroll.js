@@ -1,5 +1,5 @@
 console.log('fuga')
-document.body.addEventListener('scroll', function(e) {
+document.addEventListener('scroll', function(e) {
   console.log('hoge')
   e.preventDefault()
 }, { passive: false })
